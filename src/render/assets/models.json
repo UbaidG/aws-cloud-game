@@ -1,0 +1,777 @@
+{
+ "alb": {
+  "name": "alb",
+  "accent": "#8C4FFF",
+  "height": 0.882,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 2214,
+  "sockets": {
+   "status": [
+    0,
+    1.047,
+    0
+   ],
+   "label": [
+    0,
+    1.007,
+    0
+   ]
+  },
+  "groups": [
+   "spin_hub"
+  ],
+  "bytes": 66056
+ },
+ "apigw": {
+  "name": "apigw",
+  "accent": "#8C4FFF",
+  "height": 0.702,
+  "footprint": [
+   1.381,
+   1.08
+  ],
+  "triangles": 734,
+  "sockets": {
+   "status": [
+    0,
+    1.032,
+    0
+   ],
+   "label": [
+    0,
+    0.982,
+    0
+   ]
+  },
+  "groups": [],
+  "bytes": 36664
+ },
+ "asg": {
+  "name": "asg",
+  "accent": "#ED7100",
+  "height": 1.002,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 1398,
+  "sockets": {
+   "status": [
+    0,
+    1.092,
+    0
+   ],
+   "label": [
+    0,
+    1.042,
+    0
+   ]
+  },
+  "groups": [],
+  "bytes": 54532
+ },
+ "beanstalk": {
+  "name": "beanstalk",
+  "accent": "#ED7100",
+  "height": 1.282,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 1422,
+  "sockets": {
+   "status": [
+    0,
+    1.432,
+    0
+   ],
+   "label": [
+    0,
+    1.382,
+    0
+   ]
+  },
+  "groups": [],
+  "bytes": 49448
+ },
+ "client": {
+  "name": "client",
+  "accent": "#0284C7",
+  "height": 1.0116,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 1250,
+  "sockets": {
+   "status": [
+    0,
+    1.222,
+    0
+   ],
+   "label": [
+    0,
+    1.162,
+    0
+   ]
+  },
+  "groups": [],
+  "bytes": 41316
+ },
+ "cloudfront": {
+  "name": "cloudfront",
+  "accent": "#8C4FFF",
+  "height": 1.4091,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 2922,
+  "sockets": {
+   "status": [
+    0,
+    1.452,
+    0
+   ],
+   "label": [
+    0,
+    1.402,
+    0
+   ]
+  },
+  "groups": [
+   "spin_globe"
+  ],
+  "bytes": 73044
+ },
+ "cloudtrail": {
+  "name": "cloudtrail",
+  "accent": "#E7157B",
+  "height": 0.632,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 1510,
+  "sockets": {
+   "status": [
+    0,
+    0.982,
+    0
+   ],
+   "label": [
+    0,
+    0.932,
+    0
+   ]
+  },
+  "groups": [
+   "spin_reelL",
+   "spin_reelR"
+  ],
+  "bytes": 50916
+ },
+ "cloudwatch": {
+  "name": "cloudwatch",
+  "accent": "#E7157B",
+  "height": 0.922,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 970,
+  "sockets": {
+   "status": [
+    0,
+    1.182,
+    0
+   ],
+   "label": [
+    0,
+    1.132,
+    0
+   ]
+  },
+  "groups": [
+   "spin_beacon"
+  ],
+  "bytes": 37968
+ },
+ "dms": {
+  "name": "dms",
+  "accent": "#01A88D",
+  "height": 0.512,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 2170,
+  "sockets": {
+   "status": [
+    0,
+    0.932,
+    0
+   ],
+   "label": [
+    0,
+    0.882,
+    0
+   ]
+  },
+  "groups": [
+   "bob_record"
+  ],
+  "bytes": 57636
+ },
+ "dynamodb": {
+  "name": "dynamodb",
+  "accent": "#527FFF",
+  "height": 1.042,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 1098,
+  "sockets": {
+   "status": [
+    0,
+    1.252,
+    0
+   ],
+   "label": [
+    0,
+    1.202,
+    0
+   ]
+  },
+  "groups": [],
+  "bytes": 48896
+ },
+ "ebs": {
+  "name": "ebs",
+  "accent": "#7AA116",
+  "height": 0.572,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 922,
+  "sockets": {
+   "status": [
+    0,
+    0.832,
+    0
+   ],
+   "label": [
+    0,
+    0.782,
+    0
+   ]
+  },
+  "groups": [],
+  "bytes": 37912
+ },
+ "ec2": {
+  "name": "ec2",
+  "accent": "#ED7100",
+  "height": 1.292,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 2146,
+  "sockets": {
+   "status": [
+    0,
+    1.402,
+    0
+   ],
+   "label": [
+    0,
+    1.352,
+    0
+   ]
+  },
+  "groups": [],
+  "bytes": 69388
+ },
+ "ecs": {
+  "name": "ecs",
+  "accent": "#ED7100",
+  "height": 1.067,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 1170,
+  "sockets": {
+   "status": [
+    0,
+    1.212,
+    0
+   ],
+   "label": [
+    0,
+    1.162,
+    0
+   ]
+  },
+  "groups": [],
+  "bytes": 45384
+ },
+ "efs": {
+  "name": "efs",
+  "accent": "#7AA116",
+  "height": 1.082,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 810,
+  "sockets": {
+   "status": [
+    0,
+    1.292,
+    0
+   ],
+   "label": [
+    0,
+    1.242,
+    0
+   ]
+  },
+  "groups": [],
+  "bytes": 36032
+ },
+ "eks": {
+  "name": "eks",
+  "accent": "#ED7100",
+  "height": 0.867,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 2622,
+  "sockets": {
+   "status": [
+    0,
+    1.132,
+    0
+   ],
+   "label": [
+    0,
+    1.082,
+    0
+   ]
+  },
+  "groups": [
+   "spin_helm"
+  ],
+  "bytes": 75668
+ },
+ "iam": {
+  "name": "iam",
+  "accent": "#DD344C",
+  "height": 1.152,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 582,
+  "sockets": {
+   "status": [
+    0,
+    1.382,
+    0
+   ],
+   "label": [
+    0,
+    1.332,
+    0
+   ]
+  },
+  "groups": [
+   "bob_card"
+  ],
+  "bytes": 39144
+ },
+ "igw": {
+  "name": "igw",
+  "accent": "#8C4FFF",
+  "height": 1.172,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 522,
+  "sockets": {
+   "status": [
+    0,
+    1.432,
+    0
+   ],
+   "label": [
+    0,
+    1.382,
+    0
+   ]
+  },
+  "groups": [],
+  "bytes": 28840
+ },
+ "kinesis": {
+  "name": "kinesis",
+  "accent": "#8C4FFF",
+  "height": 0.767,
+  "footprint": [
+   1.09,
+   1.155
+  ],
+  "triangles": 1566,
+  "sockets": {
+   "status": [
+    0,
+    1.082,
+    0
+   ],
+   "label": [
+    0,
+    1.032,
+    0
+   ]
+  },
+  "groups": [
+   "spin_ring"
+  ],
+  "bytes": 55344
+ },
+ "kms": {
+  "name": "kms",
+  "accent": "#DD344C",
+  "height": 1.06,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 1306,
+  "sockets": {
+   "status": [
+    0,
+    1.282,
+    0
+   ],
+   "label": [
+    0,
+    1.232,
+    0
+   ]
+  },
+  "groups": [
+   "bob_key"
+  ],
+  "bytes": 44064
+ },
+ "lambda": {
+  "name": "lambda",
+  "accent": "#ED7100",
+  "height": 1.084,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 1370,
+  "sockets": {
+   "status": [
+    0,
+    1.182,
+    0
+   ],
+   "label": [
+    0,
+    1.132,
+    0
+   ]
+  },
+  "groups": [
+   "bob_core"
+  ],
+  "bytes": 40656
+ },
+ "nat_gw": {
+  "name": "nat_gw",
+  "accent": "#8C4FFF",
+  "height": 0.742,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 826,
+  "sockets": {
+   "status": [
+    0,
+    1.032,
+    0
+   ],
+   "label": [
+    0,
+    0.982,
+    0
+   ]
+  },
+  "groups": [
+   "spin_turnstile"
+  ],
+  "bytes": 39000
+ },
+ "rds": {
+  "name": "rds",
+  "accent": "#527FFF",
+  "height": 1.107,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 3478,
+  "sockets": {
+   "status": [
+    0,
+    1.272,
+    0
+   ],
+   "label": [
+    0,
+    1.232,
+    0
+   ]
+  },
+  "groups": [],
+  "bytes": 73488
+ },
+ "redis": {
+  "name": "redis",
+  "accent": "#D82C20",
+  "height": 0.692,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 2050,
+  "sockets": {
+   "status": [
+    0,
+    0.932,
+    0
+   ],
+   "label": [
+    0,
+    0.882,
+    0
+   ]
+  },
+  "groups": [],
+  "bytes": 59116
+ },
+ "redshift": {
+  "name": "redshift",
+  "accent": "#8C4FFF",
+  "height": 1.122,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 2826,
+  "sockets": {
+   "status": [
+    0,
+    1.382,
+    0
+   ],
+   "label": [
+    0,
+    1.332,
+    0
+   ]
+  },
+  "groups": [],
+  "bytes": 78728
+ },
+ "route53": {
+  "name": "route53",
+  "accent": "#8C4FFF",
+  "height": 1.4894,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 1294,
+  "sockets": {
+   "status": [
+    0,
+    1.582,
+    0
+   ],
+   "label": [
+    0,
+    1.532,
+    0
+   ]
+  },
+  "groups": [
+   "spin_dish"
+  ],
+  "bytes": 49132
+ },
+ "s3": {
+  "name": "s3",
+  "accent": "#7AA116",
+  "height": 1.3,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 3162,
+  "sockets": {
+   "status": [
+    0,
+    1.412,
+    0
+   ],
+   "label": [
+    0,
+    1.362,
+    0
+   ]
+  },
+  "groups": [],
+  "bytes": 73296
+ },
+ "sagemaker": {
+  "name": "sagemaker",
+  "accent": "#01A88D",
+  "height": 1.0971,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 2226,
+  "sockets": {
+   "status": [
+    0,
+    1.252,
+    0
+   ],
+   "label": [
+    0,
+    1.202,
+    0
+   ]
+  },
+  "groups": [
+   "spin_rings"
+  ],
+  "bytes": 68960
+ },
+ "sns": {
+  "name": "sns",
+  "accent": "#E7157B",
+  "height": 1.032,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 1334,
+  "sockets": {
+   "status": [
+    0,
+    1.252,
+    0
+   ],
+   "label": [
+    0,
+    1.202,
+    0
+   ]
+  },
+  "groups": [
+   "spin_horns"
+  ],
+  "bytes": 45180
+ },
+ "sqs": {
+  "name": "sqs",
+  "accent": "#E7157B",
+  "height": 0.584,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 970,
+  "sockets": {
+   "status": [
+    0,
+    0.932,
+    0
+   ],
+   "label": [
+    0,
+    0.882,
+    0
+   ]
+  },
+  "groups": [],
+  "bytes": 39920
+ },
+ "tgw": {
+  "name": "tgw",
+  "accent": "#8C4FFF",
+  "height": 0.533,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 2442,
+  "sockets": {
+   "status": [
+    0,
+    0.832,
+    0
+   ],
+   "label": [
+    0,
+    0.782,
+    0
+   ]
+  },
+  "groups": [
+   "spin_ring"
+  ],
+  "bytes": 65804
+ },
+ "waf": {
+  "name": "waf",
+  "accent": "#DD344C",
+  "height": 0.902,
+  "footprint": [
+   1.08,
+   1.08
+  ],
+  "triangles": 1986,
+  "sockets": {
+   "status": [
+    0,
+    1.132,
+    0
+   ],
+   "label": [
+    0,
+    1.082,
+    0
+   ]
+  },
+  "groups": [],
+  "bytes": 59104
+ }
+}

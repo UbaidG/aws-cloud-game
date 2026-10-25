@@ -1,0 +1,112 @@
+{
+  "_doc": "Shared materials for every CloudCraft model. Blender uses these for previews; the game swaps each `cc_<name>` material for a shared Three.js material built from the same values. `accent` / `accent_dark` take each model's brand colour.",
+  "steel": {
+    "color": "#424a5a",
+    "metal": 0.75,
+    "rough": 0.38
+  },
+  "steel_light": {
+    "color": "#a3acbb",
+    "metal": 0.85,
+    "rough": 0.28
+  },
+  "bezel": {
+    "color": "#1a1e26",
+    "metal": 0.3,
+    "rough": 0.5
+  },
+  "vent": {
+    "color": "#07080b",
+    "metal": 0.1,
+    "rough": 0.85
+  },
+  "rubber": {
+    "color": "#121318",
+    "metal": 0.0,
+    "rough": 0.92
+  },
+  "concrete": {
+    "color": "#535864",
+    "metal": 0.0,
+    "rough": 0.86
+  },
+  "white": {
+    "color": "#d9dee7",
+    "metal": 0.05,
+    "rough": 0.45
+  },
+  "copper": {
+    "color": "#b8693a",
+    "metal": 0.95,
+    "rough": 0.32
+  },
+  "brass": {
+    "color": "#c9a24a",
+    "metal": 0.95,
+    "rough": 0.3
+  },
+  "cable": {
+    "color": "#1d2330",
+    "metal": 0.0,
+    "rough": 0.7
+  },
+  "accent": {
+    "color": "#ED7100",
+    "metal": 0.15,
+    "rough": 0.42
+  },
+  "accent_dark": {
+    "color": "#8a4200",
+    "metal": 0.3,
+    "rough": 0.5
+  },
+  "glass": {
+    "color": "#a8d8ff",
+    "metal": 0.0,
+    "rough": 0.06,
+    "opacity": 0.32
+  },
+  "screen": {
+    "color": "#06101d",
+    "metal": 0.0,
+    "rough": 0.25,
+    "emissive": "#38bdf8",
+    "emissiveIntensity": 0.9
+  },
+  "glow": {
+    "color": "#ffffff",
+    "metal": 0.0,
+    "rough": 0.4,
+    "emissive": "#ffffff",
+    "emissiveIntensity": 2.0
+  },
+  "led": {
+    "color": "#22c55e",
+    "metal": 0.0,
+    "rough": 0.4,
+    "emissive": "#22c55e",
+    "emissiveIntensity": 3.0
+  },
+  "badge": {
+    "color": "#ffffff",
+    "metal": 0.0,
+    "rough": 0.5
+  },
+  "accent_glow": {
+    "color": "#ED7100",
+    "metal": 0.0,
+    "rough": 0.35,
+    "emissive": "#ED7100",
+    "emissiveIntensity": 1.6
+  },
+  "leaf": {
+    "color": "#4a9e3f",
+    "metal": 0.0,
+    "rough": 0.6
+  },
+  "soil": {
+    "color": "#3b2a20",
+    "metal": 0.0,
+    "rough": 0.95
+  }
+}

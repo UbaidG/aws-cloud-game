@@ -6,3 +6,7 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# Blender build intermediates
+art/.out/
+__pycache__/

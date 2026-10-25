@@ -1,0 +1,58 @@
+{
+ "packet_tracer": {
+  "id": "packet_tracer",
+  "label": "Packet Tracer Puzzle",
+  "shortBadge": "PACKET TRACER",
+  "accentColor": "#38BDF8",
+  "description": "Step hop-by-hop from User Phone -> DNS -> Gateway -> Server and verify every link.",
+  "slaMetricLabel": "Hop Verification"
+ },
+ "outage_repair": {
+  "id": "outage_repair",
+  "label": "Fix Broken Outage",
+  "shortBadge": "OUTAGE REPAIR",
+  "accentColor": "#F59E0B",
+  "description": "Diagnose and repair a failing production deployment with 0 network violations.",
+  "slaMetricLabel": "System Uptime"
+ },
+ "latency_tuning": {
+  "id": "latency_tuning",
+  "label": "Latency & SLA Tuning",
+  "shortBadge": "LATENCY SLA",
+  "accentColor": "#10B981",
+  "description": "Slash p99 response time below the target SLA using Redis caching, CDN, and Read Replicas.",
+  "slaMetricLabel": "p99 Latency"
+ },
+ "rate_limit_triage": {
+  "id": "rate_limit_triage",
+  "label": "Rate-Limit & Incident Triage",
+  "shortBadge": "RATE LIMIT 429",
+  "accentColor": "#A855F7",
+  "description": "Tame HTTP 429 burst spikes and noisy neighbors with API Gateway, WAF, and SQS queues.",
+  "slaMetricLabel": "Burst Protection"
+ },
+ "traffic_wave": {
+  "id": "traffic_wave",
+  "label": "Traffic Wave Survival",
+  "shortBadge": "TRAFFIC WAVE",
+  "accentColor": "#F97316",
+  "description": "Scale out compute capacity with Load Balancers and Auto Scaling to survive surging RPS.",
+  "slaMetricLabel": "RPS Capacity"
+ },
+ "security_defense": {
+  "id": "security_defense",
+  "label": "Security Breach Defense",
+  "shortBadge": "SECURITY SHIELD",
+  "accentColor": "#EF4444",
+  "description": "Isolate databases in Private Subnets and block SQLi/hacker probes with WAF & Firewalls.",
+  "slaMetricLabel": "Security Score"
+ },
+ "cost_slasher": {
+  "id": "cost_slasher",
+  "label": "Cost Slasher Challenge",
+  "shortBadge": "COST SLASHER",
+  "accentColor": "#EAB308",
+  "description": "Right-size bloated infrastructure and use serverless/S3 to cut the monthly AWS bill.",
+  "slaMetricLabel": "Monthly Bill"
+ }
+}

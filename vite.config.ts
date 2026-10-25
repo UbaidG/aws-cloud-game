@@ -10,7 +10,7 @@ export default defineConfig(() => {
       react(),
       tailwindcss(),
       VitePWA({
-        registerType: 'autoUpdate',
+        registerType: 'prompt',
         includeAssets: [
           'icon.svg',
           'pwa-192x192.png',
@@ -53,7 +53,7 @@ export default defineConfig(() => {
           ],
         },
         workbox: {
-          globPatterns: ['**/*.{js,css,html,ico,png,svg,woff,woff2}'],
+          globPatterns: ['**/*.{js,css,html,ico,png,svg,woff,woff2,glb}'],
           runtimeCaching: [
             {
               urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
@@ -86,14 +86,33 @@ export default defineConfig(() => {
           ],
         },
         devOptions: {
-          enabled: true,
+          // Keep the service worker out of `vite dev` so it never serves stale bundles while developing.
+          enabled: false,
           type: 'module',
         },
       }),
     ],
+    build: {
+      // three and the level content are deliberately one chunk each, so they cache well.
+      chunkSizeWarningLimit: 650,
+      rolldownOptions: {
+        output: {
+          // Vendors change rarely, so they get their own long-lived chunks.
+          codeSplitting: {
+            groups: [
+              { name: 'three', test: /node_modules[\\/]three[\\/]build[\\/]/ },
+              { name: 'react', test: /node_modules[\\/](react|react-dom|scheduler)[\\/]/ },
+              // Level content: 130 levels of recipes, stories and cutscenes.
+              { name: 'content', test: /src[\\/]content[\\/]/ },
+              { name: 'motion', test: /node_modules[\\/](motion|framer-motion|motion-dom|motion-utils)[\\/]/ },
+            ],
+          },
+        },
+      },
+    },
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, '.'),
+        '@': path.resolve(import.meta.dirname, '.'),
       },
     },
     server: {

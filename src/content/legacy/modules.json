@@ -1,0 +1,262 @@
+[
+ {
+  "id": 1,
+  "title": "Module 1: Introduction to the Cloud",
+  "shortTitle": "Intro to Cloud",
+  "syllabusSummary": "Foundational understanding of cloud computing, on-demand delivery, pay-as-you-go pricing, and shared responsibilities.",
+  "levels": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "assessmentLevelId": 10,
+  "badgeIcon": "ec2"
+ },
+ {
+  "id": 2,
+  "title": "Module 2: Compute in the Cloud",
+  "shortTitle": "Compute (EC2)",
+  "syllabusSummary": "Amazon EC2 virtual machines, instance sizing, vertical vs. horizontal scaling, Auto Scaling Groups, and Elastic Load Balancing.",
+  "levels": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20
+  ],
+  "assessmentLevelId": 20,
+  "badgeIcon": "asg"
+ },
+ {
+  "id": 3,
+  "title": "Module 3: Exploring Compute Services",
+  "shortTitle": "Serverless & Containers",
+  "syllabusSummary": "Serverless computing with AWS Lambda, container orchestration with Amazon ECS and Amazon EKS, and PaaS with AWS Elastic Beanstalk.",
+  "levels": [
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30
+  ],
+  "assessmentLevelId": 30,
+  "badgeIcon": "lambda"
+ },
+ {
+  "id": 4,
+  "title": "Module 4: Going Global",
+  "shortTitle": "Global Infra & CDN",
+  "syllabusSummary": "AWS Global Infrastructure: Regions, Availability Zones, Edge Locations with Amazon CloudFront, Route 53 DNS, and CloudFormation IaC.",
+  "levels": [
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40
+  ],
+  "assessmentLevelId": 40,
+  "badgeIcon": "cloudfront"
+ },
+ {
+  "id": 5,
+  "title": "Module 5: Networking",
+  "shortTitle": "VPC Networking",
+  "syllabusSummary": "Amazon VPC, Public vs. Private Subnets, Internet Gateways, NAT Gateways, Route Tables, Security Groups, and Transit Gateways.",
+  "levels": [
+   41,
+   42,
+   43,
+   44,
+   45,
+   46,
+   47,
+   48,
+   49,
+   50
+  ],
+  "assessmentLevelId": 50,
+  "badgeIcon": "igw"
+ },
+ {
+  "id": 6,
+  "title": "Module 6: Storage",
+  "shortTitle": "Cloud Storage",
+  "syllabusSummary": "Block storage (Amazon EBS), Object storage (Amazon S3), Shared File storage (Amazon EFS), and lifecycle archival.",
+  "levels": [
+   51,
+   52,
+   53,
+   54,
+   55,
+   56,
+   57,
+   58,
+   59,
+   60
+  ],
+  "assessmentLevelId": 60,
+  "badgeIcon": "s3"
+ },
+ {
+  "id": 7,
+  "title": "Module 7: Databases",
+  "shortTitle": "Databases & Cache",
+  "syllabusSummary": "Relational databases (Amazon RDS), NoSQL key-value stores (Amazon DynamoDB), in-memory caching (ElastiCache Redis), and Redshift.",
+  "levels": [
+   61,
+   62,
+   63,
+   64,
+   65,
+   66,
+   67,
+   68,
+   69,
+   70
+  ],
+  "assessmentLevelId": 70,
+  "badgeIcon": "rds"
+ },
+ {
+  "id": 8,
+  "title": "Module 8: AI/ML and Data Analytics",
+  "shortTitle": "AI/ML & Analytics",
+  "syllabusSummary": "Real-time data streaming (Amazon Kinesis), data warehousing (Amazon Redshift), and machine learning inference (Amazon SageMaker).",
+  "levels": [
+   71,
+   72,
+   73,
+   74,
+   75,
+   76,
+   77,
+   78,
+   79,
+   80
+  ],
+  "assessmentLevelId": 80,
+  "badgeIcon": "sagemaker"
+ },
+ {
+  "id": 9,
+  "title": "Module 9: Security",
+  "shortTitle": "Security & IAM",
+  "syllabusSummary": "Shared Responsibility Model, AWS IAM least-privilege roles, AWS WAF firewall shields, and AWS KMS encryption.",
+  "levels": [
+   81,
+   82,
+   83,
+   84,
+   85,
+   86,
+   87,
+   88,
+   89,
+   90
+  ],
+  "assessmentLevelId": 90,
+  "badgeIcon": "waf"
+ },
+ {
+  "id": 10,
+  "title": "Module 10: Monitoring, Compliance, and Governance",
+  "shortTitle": "Monitoring & Audit",
+  "syllabusSummary": "Observability and metrics with Amazon CloudWatch, API audit logging with AWS CloudTrail, and automated SNS incident alerts.",
+  "levels": [
+   91,
+   92,
+   93,
+   94,
+   95,
+   96,
+   97,
+   98,
+   99,
+   100
+  ],
+  "assessmentLevelId": 100,
+  "badgeIcon": "cloudwatch"
+ },
+ {
+  "id": 11,
+  "title": "Module 11: Pricing and Support",
+  "shortTitle": "Pricing & FinOps",
+  "syllabusSummary": "AWS pricing models, eliminating idle/unwired compute waste, right-sizing oversized instances, and FinOps cost optimization.",
+  "levels": [
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   110
+  ],
+  "assessmentLevelId": 110,
+  "badgeIcon": "s3"
+ },
+ {
+  "id": 12,
+  "title": "Module 12: Migrating to the AWS Cloud",
+  "shortTitle": "Cloud Migration",
+  "syllabusSummary": "The 6 Rs of Cloud Migration, live database replication with AWS DMS, and zero-downtime hybrid DNS cutovers.",
+  "levels": [
+   111,
+   112,
+   113,
+   114,
+   115,
+   116,
+   117,
+   118,
+   119,
+   120
+  ],
+  "assessmentLevelId": 120,
+  "badgeIcon": "dms"
+ },
+ {
+  "id": 13,
+  "title": "Module 13: Well-Architected Solutions",
+  "shortTitle": "Well-Architected",
+  "syllabusSummary": "The 6 Pillars of the AWS Well-Architected Framework: Operational Excellence, Security, Reliability, Performance, Cost, and Sustainability.",
+  "levels": [
+   121,
+   122,
+   123,
+   124,
+   125,
+   126,
+   127,
+   128,
+   129,
+   130
+  ],
+  "assessmentLevelId": 130,
+  "badgeIcon": "alb"
+ }
+]

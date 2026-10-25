@@ -1,0 +1,111 @@
+/* Labels drawn over the 3D board. They must never intercept pointer input. */
+.cc-labels {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  font-family: var(--font-sans, 'Plus Jakarta Sans', system-ui, sans-serif);
+  contain: strict;
+}
+.cc-labels > * {
+  position: absolute;
+  left: 0;
+  top: 0;
+  will-change: transform;
+  white-space: nowrap;
+}
+
+.cc-label {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 6px;
+  align-items: center;
+  padding: 3px 8px 3px 6px;
+  border-radius: 8px;
+  background: rgb(10 14 22 / 0.78);
+  border: 1px solid rgb(148 163 184 / 0.18);
+  backdrop-filter: blur(6px);
+  color: #e2e8f0;
+  font-size: 11px;
+  line-height: 1.2;
+  box-shadow: 0 4px 14px rgb(0 0 0 / 0.35);
+  transition: opacity 160ms ease;
+}
+.cc-label__dot {
+  grid-row: span 2;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #94a3b8;
+}
+.cc-label__name { font-weight: 700; }
+.cc-label__meta {
+  display: none;
+  font-family: var(--font-mono, 'JetBrains Mono', monospace);
+  font-size: 9.5px;
+  color: #94a3b8;
+}
+.cc-label.is-emphasis { border-color: rgb(56 189 248 / 0.7); }
+.cc-label.is-emphasis .cc-label__meta { display: block; }
+.cc-label.is-lifted { opacity: 0.88; }
+.cc-label[data-health='healthy'] .cc-label__dot { background: #22c55e; box-shadow: 0 0 8px #22c55e; }
+.cc-label[data-health='overloaded'] .cc-label__dot { background: #f97316; box-shadow: 0 0 8px #f97316; }
+.cc-label[data-health='down'] .cc-label__dot { background: #ef4444; box-shadow: 0 0 8px #ef4444; }
+.cc-label[data-health='down'] { border-color: rgb(239 68 68 / 0.6); }
+.cc-label[data-health='unreachable'] .cc-label__dot { background: #64748b; }
+
+.cc-zone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--zone);
+  text-shadow: 0 1px 6px rgb(0 0 0 / 0.8);
+}
+.cc-zone b {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.cc-zone span { font-size: 9.5px; opacity: 0.75; color: #cbd5e1; }
+.is-portrait .cc-zone { align-items: flex-start; }
+.is-portrait .cc-az { display: none; }
+
+@media (max-width: 640px) {
+  .cc-zone b { font-size: 9.5px; }
+  .cc-zone span { display: none; }
+}
+
+.cc-az {
+  font-family: var(--font-mono, 'JetBrains Mono', monospace);
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  color: #94a3b8;
+  opacity: 0.8;
+}
+
+.cc-callout {
+  display: flex;
+  flex-direction: column;
+  max-width: 240px;
+  white-space: normal;
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: rgb(69 10 10 / 0.92);
+  border: 1px solid #ef4444;
+  color: #fee2e2;
+  font-size: 11px;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 0.5);
+  animation: cc-callout-in 260ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.cc-callout b { font-size: 11.5px; color: #fff; }
+.cc-callout[data-tone='warning'] { background: rgb(67 40 6 / 0.92); border-color: #f59e0b; color: #fef3c7; }
+.cc-callout[data-tone='info'] { background: rgb(8 40 64 / 0.92); border-color: #38bdf8; color: #e0f2fe; }
+
+@keyframes cc-callout-in {
+  from { opacity: 0; scale: 0.8; }
+  to { opacity: 1; scale: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cc-callout { animation: none; }
+}

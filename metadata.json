@@ -1,0 +1,6 @@
+{
+  "name": "CloudCraft: DevOps AWS 3D Voxel Architect",
+  "description": "An interactive, 3D voxel-based game teaching AWS and DevOps fundamentals through 50 hands-on infrastructure deployment scenarios.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

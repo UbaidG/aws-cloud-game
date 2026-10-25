@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#151B23"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="emerald" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="#263040" stroke-width="8"/>
+
+  <!-- Isometric CloudCraft Voxel Plinth & Server Cubes -->
+  <!-- Center EC2 Cube (Top Face, Left Face, Right Face) -->
+  <g transform="translate(256, 230)">
+    <!-- Bottom Shadow -->
+    <path d="M 0 150 L 130 75 L 0 0 L -130 75 Z" fill="#000000" opacity="0.4"/>
+
+    <!-- Left Base / Private Subnet Tier -->
+    <path d="M -90 40 L 0 92 L 0 140 L -90 88 Z" fill="#1E293B"/>
+    <path d="M 0 92 L 90 40 L 90 88 L 0 140 Z" fill="#0F172A"/>
+    <path d="M 0 44 L 90 -8 L 0 -60 L -90 -8 Z" fill="#334155"/>
+
+    <!-- Main Voxel Cloud Server -->
+    <!-- Top Face -->
+    <path d="M 0 -85 L 95 -30 L 0 25 L -95 -30 Z" fill="url(#gold)"/>
+    <!-- Left Face -->
+    <path d="M -95 -30 L 0 25 L 0 100 L -95 45 Z" fill="#B45309"/>
+    <!-- Right Face -->
+    <path d="M 0 25 L 95 -30 L 95 45 L 0 100 Z" fill="#78350F"/>
+
+    <!-- Glowing Brass Status Nodes & Network Lines -->
+    <circle cx="-50" cy="5" r="7" fill="#FDE68A"/>
+    <circle cx="0" cy="34" r="7" fill="#FDE68A"/>
+    <circle cx="50" cy="5" r="7" fill="#FDE68A"/>
+
+    <!-- Floating Cyan Packet Orbit -->
+    <ellipse cx="0" cy="-30" rx="125" ry="50" fill="none" stroke="url(#cyan)" stroke-width="6" stroke-dasharray="16 12"/>
+    <circle cx="108" cy="-5" r="14" fill="#38BDF8"/>
+
+    <!-- Floating Emerald S3 Tier -->
+    <circle cx="-100" cy="-45" r="12" fill="#10B981"/>
+  </g>
+
+  <!-- AWS Terminal Header Text -->
+  <text x="256" y="445" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="34" fill="#F8FAFC" text-anchor="middle" letter-spacing="4">CLOUDCRAFT</text>
+  <text x="256" y="475" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="16" fill="#F59E0B" text-anchor="middle" letter-spacing="3">DEVOPS ARCHITECT</text>
+</svg>
